@@ -3,7 +3,15 @@ A circuitpython project using Milador's Qwiic (https://github.com/milador/Qwiic-
 
 This is a simplified code that sends a HID keycode (SW1 => SPACE and SW2 => TAB) when a wired switch is connected at each jack.
 
-The project uses circuitpython (version 7) to encourage novice users to modify and use the code. In addition to circuitpython stock libraries, the Community_CircuitPython_TCA9534 (https://github.com/milador/Community_CircuitPython_TCA9534) library is used.
+The project uses circuitpython (version 7) to encourage novice users to modify and use the code.
+
+The following circuitpython stock libraries are needed in the lib folder:
+- adafruit_bus_device
+- adafruit_hid
+- adafruit_pixelbuf.mpy
+- neopixel.mpy
+
+The following additional library is needed in the lib folder: Community_CircuitPython_TCA9534 (https://github.com/milador/Community_CircuitPython_TCA9534) library is used.
 
 The following wiring is needed:
 
